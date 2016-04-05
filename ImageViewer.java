@@ -153,6 +153,13 @@ public class ImageViewer
         filterList.add(new DarkerFilter("Darker"));
         filterList.add(new LighterFilter("Lighter"));
         filterList.add(new ThresholdFilter("Threshold"));
+        filterList.add(new GrayscaleFilter("Grayscale"));
+        filterList.add(new MirrorFilter("Mirror"));
+        filterList.add(new InvertFilter("Invert"));
+        filterList.add(new SmoothFilter("Smooth"));
+        filterList.add(new SolarizeFilter("Solarize"));
+        filterList.add(new EdgeDetectionFilter("Edge Detection"));
+        filterList.add(new SepiaFilter("Sepia"));
         
         return filterList;
     }
